@@ -1,0 +1,20 @@
+<div class="container" ng-show="isShown">
+    <div class="jumbotron">
+        <h1>Friends<sup>2</sup> Timeline</h1>
+        <p>Peek into your Twitter friends.</p>
+        <br>
+        <p><small class="text-muted">It creates a Twitter list which has friends of your friends as members.</small></p>
+        <br>
+        <p><a class="btn btn-primary btn-lg" ng-href="{{CORSET_URL+'/auth'}}">Sign in</a></p>
+    </div>
+    <div class="col-offset-11 col-1">
+      <span class="navbar-brand"><twitterbutton count="horizontal"></twitterbutton></span>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <ng-include src="'partials/footer.html'"></ng-include>
+</div>
